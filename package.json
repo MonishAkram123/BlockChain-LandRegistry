@@ -1,0 +1,24 @@
+{
+  "name": "blockchain-landregistry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonishAkram123/BlockChain-LandRegistry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonishAkram123/BlockChain-LandRegistry/issues"
+  },
+  "homepage": "https://github.com/MonishAkram123/BlockChain-LandRegistry#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "hbs": "^4.0.1",
+    "web3": "^1.0.0-beta.33"
+  }
+}
