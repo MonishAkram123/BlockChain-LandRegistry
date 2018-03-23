@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/MonishAkram123/BlockChain-LandRegistry#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "hbs": "^4.0.1",
-    "web3": "^1.0.0-beta.33"
+    "solc": "^0.4.19",
+    "web3": "^0.20.6"
   }
 }
