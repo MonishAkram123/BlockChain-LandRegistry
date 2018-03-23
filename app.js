@@ -18,7 +18,7 @@ web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 abiDefinition = JSON.parse(fs.readFileSync(pathToSolidity +'interface.json'));
 RegistryContract = web3.eth.contract(abiDefinition);
 
-contractInstance = RegistryContract.at(fs.readFileSync(pathToSolidity +'contractAddress'));
+contractInstance = RegistryContract.at(fs.readFileSync(pathToSolidity +'contractAddress').toString());
 
 
 app.get('/', (req, res) => {
